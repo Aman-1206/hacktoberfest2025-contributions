@@ -1,175 +1,36 @@
-<h1 align="center">✨ Hacktoberfest 2025 Contributions ✨</h1>
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="400">
-</p>
+## Getting Started
 
-<p align="center">
-  <b>🚀 A collaborative open-source initiative for Hacktoberfest 2025! 💻</b><br>
-  Learn • Build • Contribute • Celebrate 🎉
-</p>
+First, run the development server:
 
-<div align="center">
-  
-[![Stars](https://img.shields.io/github/stars/recodehive/recode-website?style=flat-square)](https://github.com/recodehive/recode-website/stargazers)
-[![Forks](https://img.shields.io/github/forks/recodehive/recode-website?style=flat-square)](https://github.com/recodehive/recode-website/network/members)
-[![PRs](https://img.shields.io/github/issues-pr/recodehive/recode-website?style=flat-square)](https://github.com/recodehive/recode-website/pulls)
-[![Issues](https://img.shields.io/github/issues/recodehive/recode-website?style=flat-square)](https://github.com/recodehive/recode-website/issues)
-[![Contributors](https://img.shields.io/github/contributors/recodehive/recode-website?color=2b9348&style=flat-square)](https://github.com/recodehive/recode-website/graphs/contributors)
-
-</div>
-
----
-
-## 📜 Table of Contents
-- [About](#-about)
-- [Features](#-features)
-- [Quick Start](#-quick-start)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Contributing](#-contributing)
-- [Community](#-community)
-- [Project Statistics](#-project-statistics)
-- [Contributors](#-contributors)
-- [Stay Connected](#-stay-connected)
-
----
-
-## 📖 About
-
-Hacktoberfest is a month-long celebration of open-source software run by DigitalOcean.  
-Contribute to any open-source repo on GitHub and earn cool swag & a T-shirt 👕.  
-
----
-
-## ✨ Features
-
-- **Hands-On Setup Guides** – Practical walkthroughs for setting up projects, repositories, and development environments  
-- **Leaderboards & Challenges** – Track your progress, earn points, and compete with others to stay motivated  
-- **Community & Collaboration** – Engage with other learners, share tips, and collaborate on projects  
-
----
-
-## 🚀 Quick Start
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) ≥ 18   
-
-### Installation
-
-**Clone the repository:**
 ```bash
-https://github.com/Nikhil-2002/hacktoberfest2025-contributions.git
-cd AnyFolder
-
-Traditional Setup:
-
-bash
-Copy code
-cd AnyFolder
-npm install
 npm run dev
-
-
-📁 Project Structure
-
-HACKTOBERFEST2025-CONTRIBUTIONS/
-│
-├── CartWithRTK/
-│ ├── node_modules/
-│ ├── public/
-│ └── src/
-│
-├── CodeWithJs/
-├── Cointab/
-├── FindNearestMess/
-├── HealthcareAssignment/
-├── js-practice-platform/
-│
-├── .gitignore
-├── CODE_OF_CONDUCT.md
-├── CONTRIBUTORS.md
-├── LICENSE
-├── README.md
-├── package-lock.json
-└── package.json
-
-## 🤝 Contributing
-
-We welcome contributions from developers of all skill levels! Here's how you can get started:
-
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-## 🤝 Contributing
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-We welcome contributions from developers of **all skill levels**!  
-Follow these simple steps to start contributing to Hacktoberfest 2025 🎉
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
----
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-### 📝 Contribution Steps
+## Learn More
 
-<div align="center">
+To learn more about Next.js, take a look at the following resources:
 
-```mermaid
-flowchart TD
-    style Fork fill:#FFDDC1,stroke:#FF7F50,stroke-width:2px
-    style Branch fill:#FFFACD,stroke:#FFD700,stroke-width:2px
-    style Edit fill:#E0FFFF,stroke:#00CED1,stroke-width:2px
-    style Commit fill:#FFE4E1,stroke:#FF69B4,stroke-width:2px
-    style PR fill:#D8BFD8,stroke:#8A2BE2,stroke-width:2px
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-    Fork[🍴 Fork the Project] --> Branch[🌿 Create a New Branch]
-    Branch --> Edit[✏️ Make Your Changes]
-    Edit --> Commit[💾 Commit the Changes]
-    Commit --> PR[🚀 Open a Pull Request]
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-    classDef startend fill:#98FB98,stroke:#228B22,stroke-width:2px,color:#000,font-weight:bold;
-    class Fork,PR startend;
-```
+## Deploy on Vercel
 
-### Step-by-Step Guide
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-**Fork the repository** on GitHub
-
-**Clone your fork:**
-
-```bash
-git clone https://github.com/your-username/hacktoberfest2025-contributionse.git
-cd AnyFolder
-```
-
-**Create a new branch:**
-
-```bash
-git checkout -b feature/your-feature-name
-
-```
-
-**Make your changes** and test thoroughly
-
-**Commit your changes:**
-
-```bash
-git commit -m "Add: brief description of your changes"
-```
-
-**Push to your fork:**
-
-```bash
-git push origin feature/your-feature-name
-```
-
-**Submit a Pull Request** with a detailed description of your changes
-
-
-<div align="center">
-
-
-
-**Happy open-source contributions—here's to your career success! 🎉**
-
-
-
-</div>
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
